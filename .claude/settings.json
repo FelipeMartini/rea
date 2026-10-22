@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comentario": "Configuração da sessão ProjetoClone - regras determinísticas e travas de segurança",
+  "permissions": {
+    "deny": [
+      "Agent",
+      "Workflow",
+      "Read(./.env)",
+      "Edit(./.env)",
+      "Write(./.env)",
+      "Read(./.env.*)",
+      "Edit(./.env.*)",
+      "Write(./.env.*)"
+    ]
+  },
+  "env": {
+    "IA_NOME": "ProjetoClone"
+  }
+}
